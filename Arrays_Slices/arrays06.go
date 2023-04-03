@@ -9,11 +9,18 @@ func main() {
 	fmt.Print("\nConfira se um número está no array: ")
 	fmt.Scan(&number)
 
+	pertence := false
+
 	for i := 0; i < len(array); i++ {
 		if array[i] == number {
-			fmt.Println("\nEste número pertece ao array!")
+			pertence = true
 		}
 	}
-	fmt.Println("\nEste número não pertence ao array!")
+
+	if pertence {
+		fmt.Println("\nEste número pertence ao array!")
+	} else {
+		fmt.Println("\nEste número não pertence ao array!")
+	}
 
 }
