@@ -54,7 +54,15 @@
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build arrays18.go">
+  <component name="RunManager" selected="Go Build.go build arrays06.go">
+    <configuration name="go build arrays06.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Arrays_Slices" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/arrays06.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build arrays16.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Arrays_Slices" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build arrays06.go" />
         <item itemvalue="Go Build.go build arrays18.go" />
         <item itemvalue="Go Build.go build arrays16.go" />
       </list>
