@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	array := [10]float64{1.9, 5.1, 5.0, 4.6, 9.9, 11.2, 7.8, 8.4, 6.6, 10.1}
+	array := [10]float64{1.3, 2.3, 8.7, 1.3, 7.8, 5.9, 17.9, 5.4, 6.1, 10.0}
 	var slice []float64
 	fmt.Println("Atual lista: ", array)
 	for i := 0; i < len(array); i++ {
